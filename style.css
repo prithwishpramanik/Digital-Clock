@@ -1,0 +1,29 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    background-image: url("360.jpg")
+}
+
+
+.card {
+    margin-top: 16rem;
+    background: #cce0e0e0;
+    color: black;
+    border-radius: 58px;
+    color: black;
+}
+
+.p-3.border.bg-light.text-center {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.collon {
+    animation: blinker 1s linear infinite;
+}
+
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
